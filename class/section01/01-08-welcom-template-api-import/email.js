@@ -28,5 +28,7 @@ export function getWelcomeTemplate({ name, age, school }) {
 }
 
 export function sendTemplateToEmail(myemail, result) {
-  console.log(myemail + "이메일로 가입환영템플릿 " + result + "를 전송합니다.");
+  console.log(
+    myemail + " 이메일로 가입환영템플릿 " + result + "를 전송합니다."
+  );
 }
